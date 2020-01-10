@@ -9,10 +9,13 @@
 
 header{
 
+font-size: 30px;
+font-family: Dubai;
   background-image: url(../image/Home.jpg);
   background-position: center;
-  height: 100vh;
+  height: 700px;
   background-size: cover;
+
 }
 
 nav ul {
@@ -37,14 +40,18 @@ nav ul li a{
  
   }
 
-  .logo{
+  .logo{margin-top:20px;
+    margin-left:30px;
      float: left;
 
   }
+
+
+
    .info{
      float: left;
-     margin-top: 30px;
-     margin-left: 60px;
+     margin-top: 40px;
+     margin-left: 200px;
      font-size: 20px;
   }
   .clean{
@@ -54,7 +61,7 @@ nav ul li a{
 
   .checkbtn{
   font-size: 30px;
-  color: white;
+  color:black;
   float: right;
   line-height: 80px;
   margin-right: 40px;
@@ -62,6 +69,7 @@ nav ul li a{
   display: none;
 }
 #check{
+
   display: none;
 }
 
@@ -159,7 +167,7 @@ nav ul li a{
         display: none;
     }
 
-}
+
 
 
 
@@ -195,6 +203,7 @@ nav ul li a{
     background-size: cover;
     margin: 0% 0% 0% 0%;
 }
+
 .p_back_input{
     font-family: 'Anton', sans-serif;
     color: white;
